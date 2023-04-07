@@ -17,6 +17,7 @@ open an integrated terminal, run "npm i mysql2", "npm i inquirer", "npm i consol
 
 
 ## Usage
+![Screenshot](assets/Screenshot-12.png)
 
 Walk Through Video Link:https://drive.google.com/file/d/1Ca5UHoB9xTRTxWEc4QVitDPVYPbIxY5j/view
 
