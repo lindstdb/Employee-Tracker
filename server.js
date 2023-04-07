@@ -212,7 +212,7 @@ inquirer.prompt([
 
 
 function updateEmployeeRole() {
- // Select all roles from table for future ref
+ // Select all roles from table 
  connection.query(
     `SELECT * FROM roles`,
     function (err, results, fields) {
@@ -221,10 +221,10 @@ function updateEmployeeRole() {
             return;
         }
 
-        // Create empty array for storing info
+        // Create empty array 
         let roleArr = [];
 
-        // for each item in the results array, push the name of the roles to the roles array
+        //push the name of the roles to the roles array
         results.forEach(item => {
             roleArr.push(item.title)
         })
